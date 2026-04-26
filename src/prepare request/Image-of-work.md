@@ -25,13 +25,13 @@
 </div>
 ```
 
-```2. Form work using useState```
+```2. Form image work using useState```
 ```Javascript 
 const [images, setImages] = useState([]);
 const [preview, setPreview] = useState([]);
 ```
 
-```3. Handle onChange function```
+```3. Handle Image onChange function```
 ```Javascript 
 const handleImageChange = (e) => {
   const files = Array.from(e.target.files);
