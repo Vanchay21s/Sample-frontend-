@@ -1,5 +1,5 @@
-#### 1. Data of work
-```==> Input form work```
+#### Data of work
+```1. Input form work```
 ```Javascript 
 <form onSubmit={handleSubmit}>
   <div>
@@ -27,7 +27,7 @@
   <button type="submit">Submit</button>
 </form>
 ```
-```==> Form work using useState```
+```2. Form work using useState```
 ```Javascript 
 const [form, setForm] = useState({
   name: "",
@@ -38,7 +38,7 @@ const [form, setForm] = useState({
   description: "",
 });
 ```
-```==> Handle onChange function```
+```3. Handle onChange function```
 ```Javascript 
 const handleOnChange = (e) => {
   const { name, value } = e.target;
